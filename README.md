@@ -8,4 +8,4 @@ This project aims to classify approximately 17,000 blood cell images using the B
 * InceptionV3
 * ResNet50V2
 
-then we evaluate each model by accuracy, with robustness improved using image augmentation and dropout regularization in the prediction layers. The models are trained for 15 epochs with the Adam optimizer with identical prediction layers for control. All models except DenseNet201 show signs of overfitting with EfficientNetB4 performing the best at 94.53% test accuracy.
+then we evaluate each model by accuracy, with robustness improved using image augmentation and dropout regularization in the prediction layers. The models are trained for 15 epochs with the Adam optimizer with identical prediction layers for control. All models except DenseNet201 show no signs of overfitting with EfficientNetB4 performing the best at 94.53% test accuracy.
